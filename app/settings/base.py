@@ -57,6 +57,7 @@ TENANT_APPS = (
     'group',
     'salesmans',
     'userClient',
+    'typeOrders',
     'userClientTemp',
 )
 

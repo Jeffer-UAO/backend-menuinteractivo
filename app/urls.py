@@ -18,6 +18,7 @@ from saucesorden.api.router import router_saucesorden
 from salesmans.api.router import router_salesmans
 from group.api.router import router_group
 from userClient.api.router import router_userClient
+from typeOrders.api.router import router_types
 from userClientTemp.api.router import router_userClientTemp
 
 from drf_yasg.views import get_schema_view
@@ -63,6 +64,7 @@ urlpatterns = [
     path('api/', include(router_group.urls)),
     path('api/', include(router_userClient.urls)),
     path('api/', include(router_userClientTemp.urls)),
+    path('api/', include(router_types.urls)),
 
 
     #path('login/', TokenObtainPairView.as_view(), name='token_obtain_pair'),
