@@ -132,7 +132,7 @@ TENANT_DOMAIN_MODEL = "customers.Domain"
 
 STATIC_URL = '/static/'
 STATIC_ROOT = os.path.join(BASE_DIR, 'staticfiles')
-MEDIA_URL = '/uploads/'
+# MEDIA_URL = '/uploads/'
 
 STATICFILES_DIRS = (
     os.path.join(BASE_DIR, 'static'),
